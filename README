@@ -1,0 +1,10 @@
+Requirements:
+1. Install pyenv
+2. Install python 3.12 version: pyenv install 3.12
+3. Use python 3.12 in this repo: move to the repo directory and execute pyenv local 3.12
+4. Install poetry: python -m pip install poetry
+5. Install proyect requirements: poetry install
+6. Execute the tests: poetry run python -m pytest
+
+## How to execute the tests?
+`poetry run python -m pytest` from the root dir of the proyect
